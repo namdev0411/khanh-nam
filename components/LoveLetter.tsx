@@ -75,7 +75,7 @@ export default function LoveLetter() {
                         </p>
 
                         <p className={`transition-all duration-700 delay-600 ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-5'}`}>
-                            Anh trân trân trọng em nhiều, không phải vì bữa cơm, mà vì cách em những điều nhỏ em quan tâm, cách em chọn làm lành và chọn ở bên anh.
+                            Anh trân trọng em nhiều, không phải vì bữa cơm, mà vì cách em quan tâm từ những điều nhỏ, cách em chọn làm lành và chọn ở bên anh.
                         </p>
 
                         <p className={`transition-all duration-700 delay-700 ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-5'}`}>
