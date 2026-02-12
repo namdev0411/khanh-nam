@@ -119,7 +119,7 @@ export default function HeartStars({ className = "" }: HeartStarsProps) {
                 {/* Tên Khánh ở giữa */}
                 <div
                     className={`relative z-10 text-center transition-all duration-1000 ${isVisible ? 'opacity-100 scale-100' : 'opacity-0 scale-90'}`}
-                    style={{ transitionDelay: "0.3s" }}
+                    style={{ transitionDelay: "0.3s", top: '20px' }}
                 >
                     <h2
                         className="font-['Dancing_Script'] text-5xl sm:text-6xl md:text-7xl font-bold"
