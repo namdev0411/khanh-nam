@@ -71,11 +71,11 @@ export default function LoveLetter() {
                         </p>
 
                         <p className={`transition-all duration-700 delay-500 ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-5'}`}>
-                            Có lúc anh giận nhẹ một chút. Em nhận ra điều đó, và em lại là người chủ động ôm anh trước. Anh không biết em có để ý không, nhưng cái ôm đó làm anh mềm ra ngay lập tức. Anh nhận ra mình giỏi suy nghĩ phức tạp, còn em thì giỏi làm mọi thứ trở nên đơn giản.
+                            Có lúc anh giận nhẹ một chút. Em nhận ra điều đó, và em lại là người chủ động ôm anh trước. Anh không biết em có để ý không, nhưng cái ôm đó làm anh mềm ra ngay lập tức. Anh nhận ra mình hay suy nghĩ phức tạp, còn em thì giỏi làm mọi thứ trở nên đơn giản.
                         </p>
 
                         <p className={`transition-all duration-700 delay-600 ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-5'}`}>
-                            Anh trân trọng em nhiều hơn em nghĩ. Không phải vì bữa cơm, mà vì cách em quan tâm những điều nhỏ, cách em chọn làm lành và chọn ở bên anh.
+                            Anh trân trân trọng em nhiều, không phải vì bữa cơm, mà vì cách em những điều nhỏ em quan tâm, cách em chọn làm lành và chọn ở bên anh.
                         </p>
 
                         <p className={`transition-all duration-700 delay-700 ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-5'}`}>
@@ -84,11 +84,15 @@ export default function LoveLetter() {
 
                         <p className={`transition-all duration-700 delay-800 ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-5'} text-violet-300/80 italic border-l-2 border-violet-500/30 pl-4`}>
                             Anh không giỏi nói những lời ngọt ngào. Anh chỉ biết là anh sẽ cố gắng nhiều hơn, yêu em tử tế hơn, và không để em phải một mình bước lại gần anh như lần đó nữa.
+                            Anh muốn là người nắm tay em không chỉ những lúc vui mà cả những khi mệt mỏi. Muốn cùng em đi qua những ngày bình thường nhất.
                         </p>
 
                         <p className={`transition-all duration-700 ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-5'}`} style={{ transitionDelay: '0.9s' }}>
-                            Valentine này anh không thể ở bên em, nhưng anh mong tụi mình vẫn sẽ tiếp tục như vậy lúc thì em nấu, lúc thì anh nấu, nhưng luôn là vì muốn ở cạnh nhau.
+                            Valentine này anh không thể ở bên em, nhưng anh mong tụi mình vẫn sẽ tiếp tục như vậy lúc thì em nấu, lúc thì anh nấu, nhưng ...
+                            <br />
+                            luôn là vì muốn ở cạnh nhau.
                         </p>
+
                     </div>
 
                     {/* Signature */}
