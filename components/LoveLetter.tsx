@@ -50,7 +50,7 @@ export default function LoveLetter() {
 
                     {/* Letter header */}
                     <div className="text-center mb-8 sm:mb-10">
-                        <p className="font-['Cormorant_Garamond'] text-xs sm:text-sm text-gray-500 tracking-[0.3em] uppercase mb-2">
+                        <p className="font-['Cormorant_Garamond'] text-lg text-gray-500 tracking-[0.3em] uppercase mb-2">
                             14 · 02 · 2026
                         </p>
                         <div className="w-12 sm:w-16 h-px bg-gradient-to-r from-transparent via-violet-500/40 to-transparent mx-auto" />
