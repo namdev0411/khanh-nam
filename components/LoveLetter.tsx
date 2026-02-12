@@ -57,7 +57,7 @@ export default function LoveLetter() {
                     </div>
 
                     {/* Letter content */}
-                    <div className="font-['Cormorant_Garamond'] text-base sm:text-lg md:text-xl text-gray-300 leading-relaxed space-y-5 sm:space-y-6">
+                    <div className="font-['Cormorant_Garamond'] text-base sm:text-xl md:text-xl text-gray-300 leading-relaxed space-y-5 sm:space-y-6">
                         <p className={`transition-all duration-700 delay-200 ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-5'}`}>
                             <span className="text-gray-100 text-lg sm:text-xl font-['Playfair_Display'] italic">Dear em yêu ❤</span>
                         </p>

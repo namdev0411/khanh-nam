@@ -13,14 +13,14 @@ const questions = [
         id: 1,
         question: "Món ăn Thái Lan yêu thích của em là gì?",
         options: ["Gỏi", "Mỳ Trộn", "Cơm gà", "Cơm Hàu"],
-        correctAnswer: 3,
+        correctAnswer: 2,
         isScored: true,
     },
     {
         id: 2,
         question: "Em thích làm gì khi rảnh?",
         options: ["Chơi game", "Lướt tiktok", "Nghe nhạc", "Đọc sách"],
-        correctAnswer: 3,
+        correctAnswer: 1,
         isScored: true,
     },
     {
@@ -250,12 +250,12 @@ export default function QuizGate({ onComplete, onClose, isReplay }: QuizGateProp
                         <div className="w-16 h-px bg-gradient-to-r from-transparent via-violet-500/40 to-transparent mx-auto mb-6" />
 
                         {!isReplay && (
-                            <p className="font-['Cormorant_Garamond'] text-gray-300 text-base sm:text-lg mb-4 leading-relaxed">
+                            <p className="font-['Cormorant_Garamond'] text-gray-300 text-base sm:text-xl mb-4 leading-relaxed">
                                 Hôm nay chưa tới 14 tháng 2...
                             </p>
                         )}
 
-                        <p className="font-['Cormorant_Garamond'] text-gray-400 text-sm sm:text-base mb-8 leading-relaxed italic">
+                        <p className="font-['Cormorant_Garamond'] text-gray-400 text-lg sm:text-base mb-8 leading-relaxed italic">
                             {isReplay
                                 ? "Em muốn thử lại xem anh hiểu em bao nhiêu không? 💜"
                                 : "Nhưng nếu em muốn đọc thư của anh sớm, em có dám chơi câu đố một chút với anh không? 💜"
@@ -285,7 +285,7 @@ export default function QuizGate({ onComplete, onClose, isReplay }: QuizGateProp
                                 </button>
                             )}
 
-                            <p className="font-['Cormorant_Garamond'] text-gray-500 text-xs">
+                            <p className="font-['Cormorant_Garamond'] text-gray-500 text-sm">
                                 {questions.length} câu hỏi nhỏ thôi...
                             </p>
                         </div>
